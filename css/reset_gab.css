@@ -1,0 +1,77 @@
+@charset "utf-8";
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, em, img, ins, kbd, q, small, strong, sub, sup, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, details, figcaption, figure, footer, header, nav, section, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: normal;
+    background: none;
+    vertical-align: baseline;
+}
+header, article, aside, figcaption, figure, footer, nav, section {
+	display: block;
+}
+ul, li {
+	list-style: none;
+}
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 1rem;
+	font-size: 100%;
+	text-decoration: none;
+	background: none;
+	color: inherit;
+}
+img {
+	vertical-align: top;
+}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 16px;
+	font-size: 1rem;
+	color: inherit;
+	font-weight: normal;
+}
+.cf:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.blind {
+	width: 0;
+	height: 0;
+	line-height: 0;
+	position: absolute;
+	text-indent: -99999px;
+	overflow: hidden;
+}
+.no_ml {
+	margin-left: 0 !important;
+}
+.no_mr {
+	margin-right: 0 !important;
+}
+.no_mt {
+	margin-top: 0 !important;
+}
+.no_mb {
+	margin-bottom: 0 !important;
+}
+.no_pl {
+	padding-left: 0 !important;
+}
+.no_pr {
+	padding-right: 0 !important;
+}
+.no_pt {
+	padding-top: 0 !important;
+}
+.no_pb {
+	padding-bottom: 0 !important;
+}
