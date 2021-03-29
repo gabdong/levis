@@ -628,14 +628,17 @@ footer p {
 		/*값생성*/
 		transform: translateY(-50%);
 	}
-	header .button a img {
+	header .button button {
+		cursor: pointer;
+	}	
+	header .button button img {
 		/*값생성*/
 		transition: all 0.3s;
 		/*값생성*/
 		transform: scale(1);
 		margin-right: 20px;
 	}
-	header .button a:hover img {
+	header .button button:hover img {
 		/*값생성*/
 		transform: scale(1.2);
 	}
